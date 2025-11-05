@@ -50,7 +50,7 @@ Quando muovi lo stick analogico, la tartaruga si sposta in tempo reale nella fin
 
 
 
-🧑‍💻 AutoreFrancesco De Luca
+🧑‍💻 Autore Francesco De Luca
 
 📧 franceescodeluca@gmail.com
 
