@@ -38,6 +38,7 @@ rosrun <nome_pacchetto> turtle_joystick.py
 🧠 Funzionamento
 
 Il nodo:
+
 1 - Sottoscrive al topic /joy per ricevere gli input del joystick.
 
 2 - Traduce gli assi e i pulsanti del controller in comandi di velocità lineare e angolare.
