@@ -6,8 +6,8 @@ Questo progetto contiene un nodo ROS scritto in Python che permette di controlla
 📦 Requisiti
 - ROS (tested on ROS Noetic / ROS 1)
 - Python 3
-- turtlesim (sudo apt install ros-$ROS_DISTRO-turtlesim)
-- joy package (sudo apt install ros-$ROS_DISTRO-joy)
+- turtlesim (sudo apt install ros-noetic-turtlesim)
+- joy package (sudo apt install ros-noetic-joy)
 
 
 ⚙️ Installazione
