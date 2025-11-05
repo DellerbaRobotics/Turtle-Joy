@@ -13,10 +13,15 @@ Questo progetto contiene un nodo ROS scritto in Python che permette di controlla
 ⚙️ Installazione
 
 Clona la repo all’interno del tuo workspace ROS:
+
 cd ~/catkin_ws/src
+
 git clone https://github.com/francescodeeluca/Turtle-Joy.git
+
 cd ..
+
 catkin_make
+
 source devel/setup.bash
 
 
