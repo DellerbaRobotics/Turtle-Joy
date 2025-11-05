@@ -9,6 +9,7 @@ Questo progetto contiene un nodo ROS scritto in Python che permette di controlla
 - turtlesim (sudo apt install ros-$ROS_DISTRO-turtlesim)
 - joy package (sudo apt install ros-$ROS_DISTRO-joy)
 
+
 ⚙️ Installazione
 
 Clona la repo all’interno del tuo workspace ROS:
@@ -17,6 +18,7 @@ git clone https://github.com/francescodeeluca/Turtle-Joy.git
 cd ..
 catkin_make
 source devel/setup.bash
+
 
 🕹️ Utilizzo
 
@@ -32,6 +34,7 @@ rosrun joy joy_node
 Infine, esegui lo script di controllo:
 rosrun <nome_pacchetto> turtle_joystick.py
 
+
 🧠 Funzionamento
 
 Il nodo:
@@ -39,10 +42,12 @@ Il nodo:
 2 - Traduce gli assi e i pulsanti del controller in comandi di velocità lineare e angolare.
 3 - Pubblica i comandi sul topic /turtle1/cmd_vel per muovere la tartaruga.
 
+
 🧩 Esempio di output
 
 Quando muovi lo stick analogico, la tartaruga si sposta in tempo reale nella finestra di turtlesim:
 [INFO] [1730816456.123]: Linear velocity: 1.0  Angular velocity: 0.5
+
 
 
 🧑‍💻 Autore
